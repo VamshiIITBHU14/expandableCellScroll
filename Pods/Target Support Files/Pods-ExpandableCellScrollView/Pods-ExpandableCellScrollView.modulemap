@@ -1,0 +1,6 @@
+framework module Pods_ExpandableCellScrollView {
+  umbrella header "Pods-ExpandableCellScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

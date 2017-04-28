@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9675AAA41EB20F8A00D4E9F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675AAA31EB20F8A00D4E9F1 /* AppDelegate.swift */; };
+		9675AAA61EB20F8A00D4E9F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675AAA51EB20F8A00D4E9F1 /* ViewController.swift */; };
+		9675AAA91EB20F8A00D4E9F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9675AAA71EB20F8A00D4E9F1 /* Main.storyboard */; };
+		9675AAAB1EB20F8A00D4E9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9675AAAA1EB20F8A00D4E9F1 /* Assets.xcassets */; };
+		9675AAAE1EB20F8A00D4E9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9675AAAC1EB20F8A00D4E9F1 /* LaunchScreen.storyboard */; };
+		9675AAB91EB210C200D4E9F1 /* StackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675AAB71EB210C200D4E9F1 /* StackViewCell.swift */; };
+		9675AABA1EB210C200D4E9F1 /* StackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9675AAB81EB210C200D4E9F1 /* StackViewCell.xib */; };
+		A968CCC1F31EEECB0C7F0C97 /* Pods_ExpandableCellScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248BF8A44BA74F44DA851F9E /* Pods_ExpandableCellScrollView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FA6F5F19CC216DF533B76D6 /* Pods-ExpandableCellScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandableCellScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandableCellScrollView/Pods-ExpandableCellScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		203462F1B8DF9C901B81800F /* Pods-ExpandableCellScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandableCellScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandableCellScrollView/Pods-ExpandableCellScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		248BF8A44BA74F44DA851F9E /* Pods_ExpandableCellScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpandableCellScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9675AAA01EB20F8A00D4E9F1 /* ExpandableCellScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableCellScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9675AAA31EB20F8A00D4E9F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9675AAA51EB20F8A00D4E9F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9675AAA81EB20F8A00D4E9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9675AAAA1EB20F8A00D4E9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9675AAAD1EB20F8A00D4E9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9675AAAF1EB20F8A00D4E9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9675AAB71EB210C200D4E9F1 /* StackViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewCell.swift; sourceTree = "<group>"; };
+		9675AAB81EB210C200D4E9F1 /* StackViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9675AA9D1EB20F8A00D4E9F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968CCC1F31EEECB0C7F0C97 /* Pods_ExpandableCellScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0134703EB0F183F688712F33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				248BF8A44BA74F44DA851F9E /* Pods_ExpandableCellScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9675AA971EB20F8A00D4E9F1 = {
+			isa = PBXGroup;
+			children = (
+				9675AAA21EB20F8A00D4E9F1 /* ExpandableCellScrollView */,
+				9675AAA11EB20F8A00D4E9F1 /* Products */,
+				F3A8A94E74EBB0C24891ABBA /* Pods */,
+				0134703EB0F183F688712F33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9675AAA11EB20F8A00D4E9F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9675AAA01EB20F8A00D4E9F1 /* ExpandableCellScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9675AAA21EB20F8A00D4E9F1 /* ExpandableCellScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				9675AAA31EB20F8A00D4E9F1 /* AppDelegate.swift */,
+				9675AAA51EB20F8A00D4E9F1 /* ViewController.swift */,
+				9675AAB71EB210C200D4E9F1 /* StackViewCell.swift */,
+				9675AAB81EB210C200D4E9F1 /* StackViewCell.xib */,
+				9675AAA71EB20F8A00D4E9F1 /* Main.storyboard */,
+				9675AAAA1EB20F8A00D4E9F1 /* Assets.xcassets */,
+				9675AAAC1EB20F8A00D4E9F1 /* LaunchScreen.storyboard */,
+				9675AAAF1EB20F8A00D4E9F1 /* Info.plist */,
+			);
+			path = ExpandableCellScrollView;
+			sourceTree = "<group>";
+		};
+		F3A8A94E74EBB0C24891ABBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				203462F1B8DF9C901B81800F /* Pods-ExpandableCellScrollView.debug.xcconfig */,
+				0FA6F5F19CC216DF533B76D6 /* Pods-ExpandableCellScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9675AA9F1EB20F8A00D4E9F1 /* ExpandableCellScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9675AAB21EB20F8A00D4E9F1 /* Build configuration list for PBXNativeTarget "ExpandableCellScrollView" */;
+			buildPhases = (
+				6A171152DC01639E1808395B /* [CP] Check Pods Manifest.lock */,
+				9675AA9C1EB20F8A00D4E9F1 /* Sources */,
+				9675AA9D1EB20F8A00D4E9F1 /* Frameworks */,
+				9675AA9E1EB20F8A00D4E9F1 /* Resources */,
+				A4FD6C2D03E301AE74AA566C /* [CP] Embed Pods Frameworks */,
+				1D37A92277324C766DE111C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpandableCellScrollView;
+			productName = ExpandableCellScrollView;
+			productReference = 9675AAA01EB20F8A00D4E9F1 /* ExpandableCellScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9675AA981EB20F8A00D4E9F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VamshiKrishna;
+				TargetAttributes = {
+					9675AA9F1EB20F8A00D4E9F1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BJBC582Q56;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9675AA9B1EB20F8A00D4E9F1 /* Build configuration list for PBXProject "ExpandableCellScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9675AA971EB20F8A00D4E9F1;
+			productRefGroup = 9675AAA11EB20F8A00D4E9F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9675AA9F1EB20F8A00D4E9F1 /* ExpandableCellScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9675AA9E1EB20F8A00D4E9F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9675AAAE1EB20F8A00D4E9F1 /* LaunchScreen.storyboard in Resources */,
+				9675AAAB1EB20F8A00D4E9F1 /* Assets.xcassets in Resources */,
+				9675AAA91EB20F8A00D4E9F1 /* Main.storyboard in Resources */,
+				9675AABA1EB210C200D4E9F1 /* StackViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D37A92277324C766DE111C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpandableCellScrollView/Pods-ExpandableCellScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A171152DC01639E1808395B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4FD6C2D03E301AE74AA566C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpandableCellScrollView/Pods-ExpandableCellScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9675AA9C1EB20F8A00D4E9F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9675AAA61EB20F8A00D4E9F1 /* ViewController.swift in Sources */,
+				9675AAB91EB210C200D4E9F1 /* StackViewCell.swift in Sources */,
+				9675AAA41EB20F8A00D4E9F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9675AAA71EB20F8A00D4E9F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9675AAA81EB20F8A00D4E9F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9675AAAC1EB20F8A00D4E9F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9675AAAD1EB20F8A00D4E9F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9675AAB01EB20F8A00D4E9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9675AAB11EB20F8A00D4E9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9675AAB31EB20F8A00D4E9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203462F1B8DF9C901B81800F /* Pods-ExpandableCellScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJBC582Q56;
+				INFOPLIST_FILE = ExpandableCellScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VamshiKrishna.ExpandableCellScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9675AAB41EB20F8A00D4E9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA6F5F19CC216DF533B76D6 /* Pods-ExpandableCellScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJBC582Q56;
+				INFOPLIST_FILE = ExpandableCellScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VamshiKrishna.ExpandableCellScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9675AA9B1EB20F8A00D4E9F1 /* Build configuration list for PBXProject "ExpandableCellScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9675AAB01EB20F8A00D4E9F1 /* Debug */,
+				9675AAB11EB20F8A00D4E9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9675AAB21EB20F8A00D4E9F1 /* Build configuration list for PBXNativeTarget "ExpandableCellScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9675AAB31EB20F8A00D4E9F1 /* Debug */,
+				9675AAB41EB20F8A00D4E9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9675AA981EB20F8A00D4E9F1 /* Project object */;
+}
